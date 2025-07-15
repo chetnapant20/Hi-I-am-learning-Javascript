@@ -1,16 +1,16 @@
-// Challenge 1
+// Challenge 1 (variables)
 let firstName ="Chetna",lastname="pant",address='main street';
 address="first street";
 console.log(firstName, lastname, address);
 
-// // Challenge 2
+// // Challenge 2 (concatenation)
 let street,country;
 street= "dhungsil"
 country="india"
 let fullMailingAddress="street" + " " + "country"
 console.log(fullMailingAddress);
 
-// // Challenge 3
+// // Challenge 3 (numbers)
 let score1, score2, score3;
 score1 = 48;
 score2 = 35;
@@ -43,20 +43,20 @@ console.log(10-'23');
 console.log("10" - 5 + '6');
 console.log("10"+5*6);
 
-// Challenge 4
+// Challenge 4 (array)
 let fruits=["apple" , "banana" , "kiwi", "strawberry",90];
 let first_fruit=fruits[0];
 fruits[4]="papaya";
 console.log("first fruit variable: ", first_fruit);
 console.log("array elements are:",fruits);
 
-// Challenge 5
+// Challenge 5 (function)
 function calculateTotal(subTotal,tax){
   return subTotal + tax;
 }
 console.log(calculateTotal(5,9));
 
-// Challenge 6
+// Challenge 6 (objects)
 let car = {
   make: "tata",
   model: 4467,
@@ -76,7 +76,7 @@ let car = {
   car.drive();
   car.stop();
 
-  // Challenge 7
+  // Challenge 7 (AND/&& , OR/||)
   let person1 = {
     name: "Chetna",
     age:24,
