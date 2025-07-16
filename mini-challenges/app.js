@@ -150,3 +150,18 @@ const averageScore = student.reduce(function(acc,curr){
 },0)/student.length;
 
 console.log(`total score of class is : ${averageScore}`);
+
+
+// Challenge 13(reduce #2)
+const survey = student.reduce(function(survey,current){
+
+  if(!survey[current.favouriteSubject])
+  survey[current.favouriteSubject]=1;
+
+  else{
+    survey[current.favouriteSubject]++;
+  }
+  return survey;
+},{})
+
+console.log(survey);
