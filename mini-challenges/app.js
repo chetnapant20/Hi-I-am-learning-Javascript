@@ -100,3 +100,26 @@ let car = {
   else{
     console.log("person2 is not allowed");
   }
+// Challenge 8 (array and loops)
+let arr = ["bob","susy","peter"];
+let lastName = "jackson";
+let new_array=[]
+for(let i=0 ; i<arr.length ; i++){
+  new_array.push(`${arr[i]} ${lastName}`);
+}
+console.log(new_array);
+
+// Challenge 9 (array methods - map)
+const student = [
+  {id:1, name:'peter', score:10, favouriteSubject: 'math'},
+  {id:2, name:'john', score:90, favouriteSubject: 'english'},
+  {id:3, name:'peterson', score:82, favouriteSubject: 'hindi'},
+  {id:4, name:'shakespaere', score:100, favouriteSubject: 'english'},
+  {id:5, name:'peterkin', score:50, favouriteSubject: 'math'},
+]
+
+let updatedStudents = student.map(function(student){
+   student.role="student";
+   return student;
+});
+console.log(updatedStudents);
