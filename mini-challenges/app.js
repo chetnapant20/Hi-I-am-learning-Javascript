@@ -123,3 +123,19 @@ let updatedStudents = student.map(function(student){
    return student;
 });
 console.log(updatedStudents);
+
+// Challenge 10 (array filter)
+const highScores = student.filter(function(add){
+  return add.score>=80;
+  // or
+  if(add.score>=80)
+    return add;
+} );
+console.log(highScores);
+
+// Chaellenge 11(find id - 3)
+const id = student.find(function(reference){
+  return reference.id===3;
+}
+)
+console.log(id);
