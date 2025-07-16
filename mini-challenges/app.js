@@ -139,3 +139,14 @@ const id = student.find(function(reference){
 }
 )
 console.log(id);
+
+// Challenge 12(reduce)
+
+const averageScore = student.reduce(function(acc,curr){
+  acc += curr.score;
+  return acc;
+  // or 
+  return acc+curr.score;
+},0)/student.length;
+
+console.log(`total score of class is : ${averageScore}`);
