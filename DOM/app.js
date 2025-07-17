@@ -21,10 +21,14 @@ console.dir(result); //gives the elemnt + method and properties
 // element.style.property="value";
 heading[0].style.color = 'red';
 // query selector returns nodelist and you have to access it as array
-
 result.style.color = 'blue';
 // it query selector returns only one element
 // all get by return html collection
+
+// or
+// let 'title' is a class which has all the specification of element but not added to hmtl
+variable.classList.add('title');
+
 // --------------------------------------------------
 
 // CHILDREN
